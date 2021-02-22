@@ -8,6 +8,7 @@ print(sys.executable)
 
 def sayHello(name):
     msg = "Hello, {}".format(name)
+    print(msg)
     return msg
 
 
