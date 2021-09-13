@@ -8,7 +8,6 @@ print(sys.executable)
 
 def sayHello(name):
     msg = "Hello, {}".format(name)
-    print(msg)
     return msg
 
 
@@ -22,7 +21,7 @@ def forLoop():
 
 
 if __name__ == "__main__":
-    name = "Alex"
+    name = "Alice"
     print(sayHello(name))
 
-    forLoop()
+    # forLoop()
